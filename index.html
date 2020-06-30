@@ -12,13 +12,19 @@
 </head>
 
 <body>
-    <button name="rand" id="rand" onclick="game.player.randoming()">Раставить корабли</button>
+    <button name="rand" id="rand" onclick="myfun()">Раставить корабли</button>
     <canvas id="canvas"></canvas>
 
     <script src="Mouse.js"></script>
     <script src="Topology.js"></script>
     <script src="Game.js"></script>
     <script src="script.js"></script>
+    <script>
+        function myfun() {
+            game.player.randoming()
+            game.stage = "play"
+        }
+    </script>
 </body>
 
 </html>
