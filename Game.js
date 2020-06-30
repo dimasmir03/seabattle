@@ -11,7 +11,7 @@ class Game {
       this.computer = new Topology({
          offsetX: 600,
          offsetY: 90,
-         //secret: true,
+         secret: true,
       });
 
       this.computer.randoming();
